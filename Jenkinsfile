@@ -9,7 +9,7 @@ pipeline {
                 echo "Building.."
                 sh '''
                 cd myapp
-                yum install pip -y
+                
                 pip install -r requirements.txt
                 '''
             }
